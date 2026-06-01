@@ -1,26 +1,137 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --sage: #8BBDB5;
+  --sage-dark: #6FA89F;
+  --sage-light: #EEF6F5;
+  --sage-pale: #F5FAF9;
+  --gold: #C4A07A;
+  --gold-dark: #A8875F;
+  --gold-light: #F5EDE0;
+  --branco: #ffffff;
+  --texto: #2E2E2E;
+  --texto-suave: #5A5A5A;
+  --borda: #E8E0D8;
+
+  --font-serif: var(--font-playfair), 'Georgia', serif;
+  --font-sans: var(--font-lato), 'Helvetica Neue', Arial, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+html { scroll-behavior: smooth; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  color: var(--texto);
+  background: var(--branco);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  line-height: 1.3;
+}
+
+a { color: var(--sage-dark); text-decoration: none; }
+a:hover { color: var(--gold); }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* ── Hover utilitários ── */
+.card-especialidade { transition: background 0.2s; background: #fff; display: block; }
+.card-especialidade:hover { background: #FAF7F3 !important; }
+.link-sage { border-bottom: 1px solid var(--sage); color: var(--sage-dark); padding-bottom: 2px; }
+.link-sage:hover { color: var(--sage-dark) !important; border-color: var(--sage-dark); }
+.link-gold { border-bottom: 1px solid var(--gold); color: var(--gold); padding-bottom: 1px; }
+.link-gold:hover { color: var(--gold-dark) !important; border-color: var(--gold-dark); }
+.nav-link { color: #5A5A5A; transition: color 0.15s; }
+.nav-link:hover { color: var(--gold) !important; }
+.dropdown-item { display: block; padding: 0.6rem 1.5rem; color: #5A5A5A; font-size: 0.78rem; letter-spacing: 0.05em; text-transform: uppercase; font-family: var(--font-sans); transition: color 0.15s, background 0.15s; }
+.dropdown-item:hover { color: var(--gold) !important; background: #FAF7F3 !important; }
+.btn-gold { display: inline-flex; align-items: center; gap: 0.6rem; background: var(--gold); color: #fff; padding: 0.9rem 2rem; border-radius: 2px; font-weight: 700; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; font-family: var(--font-sans); transition: background 0.2s; cursor: pointer; border: none; text-decoration: none; }
+.btn-gold:hover { background: var(--gold-dark) !important; color: #fff !important; }
+.btn-outline-gold { display: inline-flex; align-items: center; background: transparent; color: var(--gold); padding: 0.5rem 1.25rem; border: 1px solid var(--gold); border-radius: 2px; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; font-family: var(--font-sans); transition: all 0.2s; text-decoration: none; }
+.btn-outline-gold:hover { background: var(--gold) !important; color: #fff !important; }
+
+/* ── Prose — páginas de conteúdo ── */
+.prose h2 {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--gold-dark);
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--borda);
+}
+
+.prose h3 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--sage-dark);
+  margin-top: 1.75rem;
+  margin-bottom: 0.65rem;
+  font-style: italic;
+}
+
+.prose p {
+  margin-bottom: 1.1rem;
+  color: var(--texto);
+  font-size: 1rem;
+  line-height: 1.85;
+  font-family: var(--font-sans);
+  font-weight: 300;
+}
+
+.prose ul {
+  margin: 0.25rem 0 1.5rem 0;
+  list-style: none;
+  padding: 0;
+}
+
+.prose ul li {
+  margin-bottom: 0.55rem;
+  color: var(--texto-suave);
+  line-height: 1.75;
+  font-size: 0.97rem;
+  padding-left: 1.4rem;
+  position: relative;
+  font-family: var(--font-sans);
+  font-weight: 300;
+}
+
+.prose ul li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--sage);
+  font-weight: 300;
+}
+
+.prose strong {
+  color: var(--gold-dark);
+  font-weight: 700;
+}
+
+.aviso-legal {
+  font-size: 0.78rem;
+  color: #BBBBBB;
+  border-top: 1px solid var(--borda);
+  padding-top: 1.25rem;
+  margin-top: 3rem;
+  font-style: italic;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.6;
 }

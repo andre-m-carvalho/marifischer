@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local dev / brand assets (não faz parte do deploy)
+.claude/
+/marketing/
