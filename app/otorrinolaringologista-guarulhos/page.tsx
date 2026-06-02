@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import PaginaServico from "@/components/PaginaServico";
-import CTAAgendamento from "@/components/CTAAgendamento";
 
 export const metadata: Metadata = {
   title: "Otorrinolaringologista em Guarulhos — Dra. Mariana Fischer",
@@ -84,11 +83,6 @@ export default function OtorrinoGuarulhos() {
       <p>
         Para informações sobre valores e disponibilidade de horários, entre em contato pelo WhatsApp.
       </p>
-
-      <div style={{ margin: "2rem 0", display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-        <CTAAgendamento tipo="presencial" />
-        <CTAAgendamento tipo="teleconsulta" />
-      </div>
 
       <h2>Localização — Guarulhos, SP</h2>
       <p>
