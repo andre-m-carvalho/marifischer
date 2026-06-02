@@ -17,5 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/otorrinolaringologista-guarulhos/`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${base}/teleconsulta-otorrinolaringologista/`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${base}/blog/`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${base}/blog/sinais-adenoide-aumentada-crianca/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 }

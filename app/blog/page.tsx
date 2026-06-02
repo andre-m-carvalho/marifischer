@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
   title: "Blog — Informações sobre Saúde Otorrinolaringológica",
@@ -10,10 +11,9 @@ export const metadata: Metadata = {
 const serif: React.CSSProperties = { fontFamily: "var(--font-serif)" };
 const sans: React.CSSProperties = { fontFamily: "var(--font-sans)" };
 
-// Futuramente os posts virão de /content/blog/*.mdx
-const posts: { slug: string; titulo: string; resumo: string; data: string }[] = [];
-
 export default function Blog() {
+  const posts = getAllPosts();
+
   return (
     <>
       {/* Hero */}
@@ -33,7 +33,7 @@ export default function Blog() {
         </div>
       </section>
 
-      {/* Conteúdo */}
+      {/* Lista de posts */}
       <section style={{ padding: "5rem 2rem", background: "#fff" }}>
         <div className="container" style={{ maxWidth: "800px" }}>
           {posts.length === 0 ? (
@@ -51,14 +51,14 @@ export default function Blog() {
               </Link>
             </div>
           ) : (
-            <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-              {posts.map((post) => (
+            <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
+              {posts.map((post, i) => (
                 <Link key={post.slug} href={`/blog/${post.slug}/`} style={{ textDecoration: "none" }} className="card-especialidade">
-                  <div style={{ padding: "2rem", border: "1px solid #EDE8E2" }}>
-                    <p style={{ ...sans, fontSize: "0.72rem", color: "#AAAAAA", letterSpacing: "0.06em", marginBottom: "0.5rem" }}>{post.data}</p>
-                    <h2 style={{ ...serif, fontSize: "1.2rem", fontWeight: 600, color: "#2E2E2E", marginBottom: "0.6rem" }}>{post.titulo}</h2>
-                    <p style={{ ...sans, color: "#6B6B6B", fontSize: "0.88rem", lineHeight: 1.7, fontWeight: 300 }}>{post.resumo}</p>
-                    <span className="link-gold" style={{ ...sans, display: "inline-block", marginTop: "1rem", fontSize: "0.7rem", letterSpacing: "0.1em", textTransform: "uppercase" }}>
+                  <div style={{ padding: "2.5rem 0", borderBottom: "1px solid #EDE8E2", borderTop: i === 0 ? "1px solid #EDE8E2" : "none" }}>
+                    <p style={{ ...sans, fontSize: "0.68rem", color: "#C4A07A", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "0.6rem" }}>{post.data}</p>
+                    <h2 style={{ ...serif, fontSize: "1.3rem", fontWeight: 600, color: "#2E2E2E", marginBottom: "0.6rem", lineHeight: 1.3 }}>{post.titulo}</h2>
+                    <p style={{ ...sans, color: "#6B6B6B", fontSize: "0.88rem", lineHeight: 1.7, fontWeight: 300, marginBottom: "1rem" }}>{post.resumo}</p>
+                    <span className="link-gold" style={{ ...sans, fontSize: "0.68rem", letterSpacing: "0.1em", textTransform: "uppercase" }}>
                       Ler artigo
                     </span>
                   </div>
