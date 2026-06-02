@@ -91,7 +91,7 @@ export default function HomePage() {
       {/* Faixa sage */}
       <section style={{ background: "#5E9F97", padding: "2.5rem 2rem" }}>
         <div className="container" style={{ display: "flex", flexWrap: "wrap", gap: "3rem", justifyContent: "center", alignItems: "center" }}>
-          {[{ num: "Adultos", sub: "e crianças" }, { num: "Morumbi", sub: "Shopping — Sala 309" }, { num: "Particular", sub: "sem fila de espera" }].map(item => (
+          {[{ num: "Adultos", sub: "e crianças" }, { num: "Guarulhos", sub: "Vila São João — SP" }, { num: "Particular", sub: "sem fila de espera" }].map(item => (
             <div key={item.num} style={{ textAlign: "center" }}>
               <div style={{ ...serif, fontSize: "1.5rem", fontWeight: 600, color: "#fff", fontStyle: "italic" }}>{item.num}</div>
               <div style={{ ...sans, fontSize: "0.68rem", letterSpacing: "0.1em", textTransform: "uppercase", color: "rgba(255,255,255,0.9)", marginTop: "2px" }}>{item.sub}</div>
@@ -108,7 +108,7 @@ export default function HomePage() {
               Áreas de atuação
             </p>
             <h2 style={{ ...serif, fontSize: "clamp(1.8rem, 3vw, 2.4rem)", fontWeight: 700, color: "#2E2E2E" }}>
-              Especialidades
+              Áreas de Atuação
             </h2>
             <div style={{ width: "40px", height: "1px", background: "#C4A07A", margin: "1.25rem auto 0" }} />
           </div>

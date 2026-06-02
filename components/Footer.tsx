@@ -43,7 +43,7 @@ export default function Footer() {
               fontWeight: 600,
               marginBottom: "1rem",
             }}>
-              Especialidades
+              Áreas de Atuação
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
               {[

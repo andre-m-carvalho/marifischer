@@ -7,7 +7,7 @@ import { useState } from "react";
 const nav = [
   { label: "Início", href: "/" },
   {
-    label: "Especialidades",
+    label: "Áreas de Atuação",
     href: "#",
     children: [
       { label: "Atendimento Infantil", href: "/otorrino-pediatrica-sao-paulo/" },
