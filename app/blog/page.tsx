@@ -4,8 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Blog — Informações sobre Saúde Otorrinolaringológica",
   description:
-    "Artigos educativos sobre saúde dos ouvidos, nariz e garganta. Dra. Mariana Fischer — otorrinolaringologista em São Paulo.",
+    "Artigos educativos sobre saúde dos ouvidos, nariz e garganta. Dra. Mariana Fischer — otorrinolaringologista em Guarulhos e São Paulo.",
 };
+
+const serif: React.CSSProperties = { fontFamily: "var(--font-serif)" };
+const sans: React.CSSProperties = { fontFamily: "var(--font-sans)" };
 
 // Futuramente os posts virão de /content/blog/*.mdx
 const posts: { slug: string; titulo: string; resumo: string; data: string }[] = [];
@@ -13,37 +16,50 @@ const posts: { slug: string; titulo: string; resumo: string; data: string }[] = 
 export default function Blog() {
   return (
     <>
-      <section style={{ background: "linear-gradient(135deg, #1B4F72 0%, #2E86C1 100%)", padding: "4rem 1.5rem 3rem", color: "#fff" }}>
-        <div className="container" style={{ maxWidth: "800px" }}>
-          <h1 style={{ fontSize: "clamp(1.6rem, 4vw, 2.4rem)", fontWeight: 800, color: "#fff", marginBottom: "0.75rem" }}>
-            Blog — Saúde Otorrinolaringológica
+      {/* Hero */}
+      <section style={{ background: "#FAF7F3", padding: "5rem 2rem 4rem", borderBottom: "1px solid #EDE8E2", position: "relative", overflow: "hidden" }}>
+        <div style={{ position: "absolute", right: 0, top: 0, bottom: 0, width: "30%", backgroundImage: "url(/pattern.png)", backgroundRepeat: "repeat", backgroundSize: "90px", opacity: 0.15 }} />
+        <div className="container" style={{ maxWidth: "800px", position: "relative" }}>
+          <p style={{ ...sans, fontSize: "0.68rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "#C4A07A", marginBottom: "1rem" }}>
+            Blog
+          </p>
+          <h1 style={{ ...serif, fontSize: "clamp(1.8rem, 4vw, 2.8rem)", fontWeight: 700, color: "#2E2E2E", lineHeight: 1.25 }}>
+            Saúde Otorrinolaringológica
           </h1>
-          <p style={{ color: "#D6EAF8", fontSize: "1.05rem" }}>
+          <div style={{ width: "40px", height: "1px", background: "#C4A07A", margin: "1.25rem 0" }} />
+          <p style={{ ...sans, fontSize: "0.9rem", color: "#5A5A5A", lineHeight: 1.8, fontWeight: 300 }}>
             Informações educativas sobre ouvidos, nariz e garganta — para adultos e crianças.
           </p>
         </div>
       </section>
 
-      <section style={{ padding: "4rem 1.5rem", background: "#fff" }}>
+      {/* Conteúdo */}
+      <section style={{ padding: "5rem 2rem", background: "#fff" }}>
         <div className="container" style={{ maxWidth: "800px" }}>
           {posts.length === 0 ? (
-            <div style={{ textAlign: "center", padding: "4rem 0", color: "#999" }}>
-              <p style={{ fontSize: "1.1rem", marginBottom: "0.5rem" }}>Em breve, novos artigos por aqui.</p>
-              <p style={{ fontSize: "0.9rem" }}>
-                Enquanto isso, conheça nossas{" "}
-                <Link href="/#especialidades" style={{ color: "#2E86C1" }}>páginas de especialidades</Link>.
+            <div style={{ textAlign: "center", padding: "4rem 0" }}>
+              <div style={{ width: "40px", height: "1px", background: "#EDE8E2", margin: "0 auto 2.5rem" }} />
+              <p style={{ ...serif, fontSize: "1.3rem", fontWeight: 600, color: "#2E2E2E", marginBottom: "1rem" }}>
+                Em breve, novos artigos por aqui.
               </p>
+              <p style={{ ...sans, fontSize: "0.88rem", color: "#8A8A8A", lineHeight: 1.8, fontWeight: 300, marginBottom: "2rem" }}>
+                Conteúdo educativo sobre ouvidos, nariz e garganta —<br />
+                dicas, orientações e informações para pacientes adultos e crianças.
+              </p>
+              <Link href="/#especialidades" className="link-sage" style={{ ...sans, fontSize: "0.7rem", letterSpacing: "0.12em", textTransform: "uppercase", paddingBottom: "2px", textDecoration: "none" }}>
+                Ver áreas de atuação
+              </Link>
             </div>
           ) : (
             <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
               {posts.map((post) => (
-                <Link key={post.slug} href={`/blog/${post.slug}/`} style={{ textDecoration: "none" }}>
-                  <div style={{ padding: "1.75rem", border: "1px solid #e5e7eb", borderRadius: "12px" }}>
-                    <p style={{ fontSize: "0.8rem", color: "#999", marginBottom: "0.4rem" }}>{post.data}</p>
-                    <h2 style={{ fontSize: "1.15rem", fontWeight: 700, color: "#1B4F72", marginBottom: "0.5rem" }}>{post.titulo}</h2>
-                    <p style={{ color: "#666", fontSize: "0.92rem", lineHeight: 1.6 }}>{post.resumo}</p>
-                    <span style={{ display: "inline-block", marginTop: "0.75rem", color: "#2E86C1", fontSize: "0.85rem", fontWeight: 600 }}>
-                      Ler artigo →
+                <Link key={post.slug} href={`/blog/${post.slug}/`} style={{ textDecoration: "none" }} className="card-especialidade">
+                  <div style={{ padding: "2rem", border: "1px solid #EDE8E2" }}>
+                    <p style={{ ...sans, fontSize: "0.72rem", color: "#AAAAAA", letterSpacing: "0.06em", marginBottom: "0.5rem" }}>{post.data}</p>
+                    <h2 style={{ ...serif, fontSize: "1.2rem", fontWeight: 600, color: "#2E2E2E", marginBottom: "0.6rem" }}>{post.titulo}</h2>
+                    <p style={{ ...sans, color: "#6B6B6B", fontSize: "0.88rem", lineHeight: 1.7, fontWeight: 300 }}>{post.resumo}</p>
+                    <span className="link-gold" style={{ ...sans, display: "inline-block", marginTop: "1rem", fontSize: "0.7rem", letterSpacing: "0.1em", textTransform: "uppercase" }}>
+                      Ler artigo
                     </span>
                   </div>
                 </Link>
