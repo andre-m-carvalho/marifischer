@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   description:
     "Otorrinolaringologista em São Paulo para adultos e crianças. Dra. Mariana Fischer — consultas, procedimentos e cirurgias otorrino. CRM-SP 134.600, RQE 108169.",
   metadataBase: new URL("https://marifischer.com.br"),
+  verification: {
+    google: "F5QxG7ruvVulP94-2BZwCKH1yB6uJQwnJwYs89FrNk4",
+  },
   openGraph: {
     siteName: "Dra. Mariana Fischer — Otorrinolaringologista",
     locale: "pt_BR",
