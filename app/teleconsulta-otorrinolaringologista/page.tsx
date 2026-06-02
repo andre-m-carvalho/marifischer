@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PaginaServico from "@/components/PaginaServico";
+import CTAAgendamento from "@/components/CTAAgendamento";
 
 export const metadata: Metadata = {
   title: "Teleconsulta com Otorrinolaringologista — Dra. Mariana Fischer",
@@ -80,6 +81,10 @@ export default function Teleconsulta() {
         cidade do Brasil — não apenas em Guarulhos e região. É uma alternativa para quem não tem
         otorrinolaringologista disponível na sua cidade ou prefere a praticidade do atendimento online.
       </p>
+
+      <div style={{ margin: "2rem 0" }}>
+        <CTAAgendamento tipo="teleconsulta" />
+      </div>
 
       <h2>Atendimento presencial em Guarulhos</h2>
       <p>

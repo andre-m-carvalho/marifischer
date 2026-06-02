@@ -67,6 +67,7 @@ a:hover { color: var(--gold); }
 .btn-outline-gold:hover { background: var(--gold) !important; color: #fff !important; }
 
 .scroll-arrow:hover { color: rgba(255,255,255,1) !important; }
+.btn-cal:hover { background: #4d8f87 !important; }
 
 /* ── Prose — páginas de conteúdo ── */
 .prose h2 {
