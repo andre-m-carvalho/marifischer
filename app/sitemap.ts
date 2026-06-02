@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/rinite-alergica-sao-paulo/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/zumbido-no-ouvido-sao-paulo/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/ronco-apneia-sono-sao-paulo/`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/otorrinolaringologista-guarulhos/`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
     { url: `${base}/blog/`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
   ];
 }
