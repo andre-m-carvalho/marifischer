@@ -101,12 +101,12 @@ export default function Sobre() {
             <p style={{ ...sans, fontSize: "0.68rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "#C4A07A", marginBottom: "0.75rem" }}>Localização</p>
             <h2 style={{ ...serif, fontSize: "1.6rem", fontWeight: 700, color: "#2E2E2E", marginBottom: "1.25rem" }}>Consultório</h2>
             <p style={{ ...sans, fontSize: "0.95rem", color: "#5A5A5A", lineHeight: 1.9, fontWeight: 300 }}>
-              O consultório está situado no Centro Profissional Morumbi Shopping, com estrutura preparada para
+              O consultório está situado na Vila São João, em Guarulhos, com estrutura preparada para
               receber pacientes adultos e crianças.
             </p>
             <p style={{ ...sans, fontSize: "0.9rem", color: "#7A7A7A", lineHeight: 2, marginTop: "0.75rem", fontWeight: 300 }}>
-              📍 Av. Roque Petroni Júnior, 1089 — Sala 309<br />
-              Centro Profissional Morumbi Shopping — São Paulo, SP
+              📍 R. Doná Olga, 234 — Vila São João<br />
+              Guarulhos — SP · CEP 07044-010
             </p>
           </div>
 

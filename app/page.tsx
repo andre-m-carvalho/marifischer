@@ -161,13 +161,13 @@ export default function HomePage() {
         <div className="container" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "4rem", alignItems: "center" }}>
           <div>
             <p style={{ ...sans, fontSize: "0.68rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "#C4A07A", marginBottom: "0.75rem" }}>Localização</p>
-            <h2 style={{ ...serif, fontSize: "1.8rem", fontWeight: 400, color: "#fff", fontStyle: "italic", marginBottom: "1.5rem" }}>Morumbi Shopping</h2>
+            <h2 style={{ ...serif, fontSize: "1.8rem", fontWeight: 400, color: "#fff", fontStyle: "italic", marginBottom: "1.5rem" }}>Guarulhos — SP</h2>
             <p style={{ ...sans, fontSize: "0.82rem", color: "#BBBBBB", lineHeight: 2, fontWeight: 300, marginBottom: "1.25rem" }}>
-              Centro Profissional Morumbi Shopping<br />
-              Av. Roque Petroni Júnior, 1089 — Sala 309<br />
-              São Paulo — SP
+              R. Doná Olga, 234<br />
+              Vila São João — Guarulhos, SP<br />
+              CEP 07044-010
             </p>
-            <a href="https://maps.google.com/?q=Av.+Roque+Petroni+Junior+1089+Sao+Paulo" target="_blank" rel="noopener noreferrer"
+            <a href="https://maps.google.com/?q=R.+Dona+Olga,+234+Guarulhos+SP" target="_blank" rel="noopener noreferrer"
               className="link-sage" style={{ ...sans, fontSize: "0.7rem", letterSpacing: "0.1em", textTransform: "uppercase", paddingBottom: "2px", textDecoration: "none" }}>
               Ver no Google Maps
             </a>

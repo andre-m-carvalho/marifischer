@@ -143,7 +143,7 @@ export default function Header() {
           )}
 
           <a
-            href="https://wa.me/5511976761983?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta."
+            href="https://wa.me/5511918780808?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta."
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -249,7 +249,7 @@ export default function Header() {
             )
           )}
           <a
-            href="https://wa.me/5511976761983?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta."
+            href="https://wa.me/5511918780808?text=Olá%2C%20gostaria%20de%20agendar%20uma%20consulta."
             target="_blank"
             rel="noopener noreferrer"
             style={{

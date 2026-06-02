@@ -29,7 +29,7 @@ export default function Footer() {
             <p style={{ fontSize: "0.75rem", color: "#9A9A9A", lineHeight: 1.8, letterSpacing: "0.04em" }}>
               Otorrinolaringologista<br />
               CRM-SP 134.600 · RQE 108169<br />
-              São Paulo — SP
+              Guarulhos — SP
             </p>
           </div>
 
@@ -80,21 +80,20 @@ export default function Footer() {
             </div>
             <div style={{ fontSize: "0.8rem", color: "#8A8A8A", lineHeight: 2.1 }}>
               <a
-                href="https://wa.me/5511976761983"
+                href="https://wa.me/5511918780808"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "#8BBDB5", display: "block" }}
               >
-                (11) 97676-1983
+                (11) 91878-0808
               </a>
               <a href="mailto:dramariana@marifischer.com.br" style={{ color: "#8A8A8A", display: "block" }}>
                 dramariana@marifischer.com.br
               </a>
               <span style={{ display: "block", marginTop: "0.25rem" }}>
-                Centro Profissional<br />
-                Morumbi Shopping<br />
-                Av. Roque Petroni Jr., 1089<br />
-                Sala 309 — São Paulo
+                R. Doná Olga, 234<br />
+                Vila São João<br />
+                Guarulhos — SP
               </span>
             </div>
           </div>
