@@ -53,6 +53,8 @@ export default function Footer() {
                 { label: "Rinite Alérgica", href: "/rinite-alergica-sao-paulo/" },
                 { label: "Zumbido no Ouvido", href: "/zumbido-no-ouvido-sao-paulo/" },
                 { label: "Ronco e Apneia", href: "/ronco-apneia-sono-sao-paulo/" },
+                { label: "Otorrino em Guarulhos", href: "/otorrinolaringologista-guarulhos/" },
+                { label: "Teleconsulta", href: "/teleconsulta-otorrinolaringologista/" },
               ].map(l => (
                 <Link key={l.href} href={l.href} style={{
                   color: "#8A8A8A",
