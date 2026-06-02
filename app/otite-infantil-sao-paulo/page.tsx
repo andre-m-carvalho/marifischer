@@ -1,16 +1,16 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import PaginaServico from "@/components/PaginaServico";
 
 export const metadata: Metadata = {
-  title: "Otite em Crianças em São Paulo — Sintomas e Tratamento",
+  title: "Otite em Crianças em São Paulo, Sintomas e Tratamento",
   description:
-    "Otite em crianças em São Paulo — sintomas, tratamento e quando procurar otorrino. Dra. Mariana Fischer. Agende pelo WhatsApp.",
+    "Otite em crianças em São Paulo, sintomas, tratamento e quando procurar otorrino. Dra. Mariana Fischer. Agende pelo WhatsApp.",
 };
 
 export default function OtiteInfantil() {
   return (
     <PaginaServico
-      titulo="Otite em Crianças — Sintomas, Tratamento e Quando Procurar o Otorrino"
+      titulo="Otite em Crianças, Sintomas, Tratamento e Quando Procurar o Otorrino"
       subtitulo="A otite é uma das condições mais comuns na infância. Quando se repete com frequência, merece avaliação especializada."
     >
       <p>
@@ -22,7 +22,7 @@ export default function OtiteInfantil() {
       <h2>O que é otite?</h2>
       <p>
         Otite é a inflamação do ouvido, geralmente causada por bactérias ou vírus. A forma mais comum em crianças é a
-        <strong> otite média aguda</strong> — uma inflamação no ouvido médio (a região atrás do tímpano) que costuma aparecer
+        <strong> otite média aguda</strong>, uma inflamação no ouvido médio (a região atrás do tímpano) que costuma aparecer
         após resfriados e gripes.
       </p>
 
@@ -47,7 +47,7 @@ export default function OtiteInfantil() {
         <li>Saída de secreção pelo ouvido (em casos de perfuração do tímpano)</li>
       </ul>
 
-      <h2>Otite de repetição — quando é necessária avaliação especializada?</h2>
+      <h2>Otite de repetição, quando é necessária avaliação especializada?</h2>
       <p>
         Fala-se em otite de repetição quando a criança tem três ou mais episódios em seis meses, ou quatro ou mais episódios
         em um ano. Nesse caso, a avaliação com otorrinolaringologista pediátrico é recomendada, pois cada episódio pode estar
@@ -61,10 +61,10 @@ export default function OtiteInfantil() {
         após avaliação clínica. As opções incluem:
       </p>
       <ul>
-        <li><strong>Observação clínica</strong> — em casos selecionados, com critérios bem definidos</li>
-        <li><strong>Antibiótico</strong> — quando indicado pelo médico</li>
-        <li><strong>Analgésicos</strong> — para alívio da dor e febre, conforme prescrição</li>
-        <li><strong>Tubo de ventilação (cirurgia)</strong> — indicado em casos selecionados de otite de repetição ou otite com
+        <li><strong>Observação clínica</strong>, em casos selecionados, com critérios bem definidos</li>
+        <li><strong>Antibiótico</strong>, quando indicado pelo médico</li>
+        <li><strong>Analgésicos</strong>, para alívio da dor e febre, conforme prescrição</li>
+        <li><strong>Tubo de ventilação (cirurgia)</strong>, indicado em casos selecionados de otite de repetição ou otite com
         líquido persistente no ouvido</li>
       </ul>
 

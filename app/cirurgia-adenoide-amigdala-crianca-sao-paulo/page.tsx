@@ -1,16 +1,16 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import PaginaServico from "@/components/PaginaServico";
 
 export const metadata: Metadata = {
-  title: "Cirurgia de Adenoide e Amígdala em Crianças — São Paulo",
+  title: "Cirurgia de Adenoide e Amígdala em Crianças, São Paulo",
   description:
-    "Avaliação para cirurgia de adenoide e amígdala em crianças em São Paulo. Dra. Mariana Fischer — otorrinolaringologista pediátrica. Agende pelo WhatsApp.",
+    "Avaliação para cirurgia de adenoide e amígdala em crianças em São Paulo. Dra. Mariana Fischer, otorrinolaringologista pediátrica. Agende pelo WhatsApp.",
 };
 
 export default function CirurgiaAdenoide() {
   return (
     <PaginaServico
-      titulo="Adenoide e Amígdala em Crianças — Avaliação e Tratamento em São Paulo"
+      titulo="Adenoide e Amígdala em Crianças, Avaliação e Tratamento em São Paulo"
       subtitulo="A adenoidectomia e a amigdalectomia têm critérios de indicação bem estabelecidos. A avaliação pelo otorrinolaringologista pediátrico é o primeiro passo."
     >
       <p>
@@ -37,7 +37,7 @@ export default function CirurgiaAdenoide() {
         <li>Otites de repetição</li>
       </ul>
       <p>
-        A presença desses sintomas indica a necessidade de avaliação — não necessariamente cirurgia.
+        A presença desses sintomas indica a necessidade de avaliação, não necessariamente cirurgia.
         A conduta é definida após exame clínico.
       </p>
 
@@ -69,10 +69,10 @@ export default function CirurgiaAdenoide() {
         <li>Ronco com apneia do sono relacionado ao tamanho das amígdalas</li>
       </ul>
 
-      <h2>Adenoamigdalectomia — avaliação conjunta</h2>
+      <h2>Adenoamigdalectomia, avaliação conjunta</h2>
       <p>
         Quando adenoide e amígdalas estão aumentadas e causando sintomas, a avaliação é feita conjuntamente. Caso haja
-        indicação para os dois procedimentos, podem ser realizados no mesmo ato cirúrgico — a chamada adenoamigdalectomia —
+        indicação para os dois procedimentos, podem ser realizados no mesmo ato cirúrgico, a chamada adenoamigdalectomia —
         evitando que a criança passe por dois procedimentos e duas anestesias separados.
       </p>
 
@@ -81,10 +81,10 @@ export default function CirurgiaAdenoide() {
         <li>Realizado sob <strong>anestesia geral</strong></li>
         <li>Duração aproximada: <strong>30 a 60 minutos</strong></li>
         <li>Pode ser ambulatorial (alta no mesmo dia) ou com internação de uma noite, a critério médico</li>
-        <li>Sem incisões externas — acesso pela boca e nariz</li>
+        <li>Sem incisões externas, acesso pela boca e nariz</li>
       </ul>
 
-      <h2>Pós-operatório — orientações gerais</h2>
+      <h2>Pós-operatório, orientações gerais</h2>
       <p>
         O pós-operatório é acompanhado pela médica, que fornecerá orientações individualizadas. De forma geral:
       </p>

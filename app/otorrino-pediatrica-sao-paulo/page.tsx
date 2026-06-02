@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import PaginaServico from "@/components/PaginaServico";
 
 export const metadata: Metadata = {
-  title: "Atendimento Infantil em Otorrinolaringologia — São Paulo",
+  title: "Atendimento Infantil em Otorrinolaringologia, São Paulo",
   description:
-    "Atendimento otorrinolaringológico para bebês e crianças em São Paulo — otite, adenoide, amígdalas, ronco e audição. Dra. Mariana Fischer. CRM-SP 134.600.",
+    "Atendimento otorrinolaringológico para bebês e crianças em São Paulo, otite, adenoide, amígdalas, ronco e audição. Dra. Mariana Fischer. CRM-SP 134.600.",
 };
 
 export default function OtorrinoPediatrica() {
   return (
     <PaginaServico
-      titulo="Atendimento Infantil em Otorrinolaringologia — São Paulo"
-      subtitulo="Avaliação otorrinolaringológica para bebês, crianças e adolescentes — otite, adenoide, amígdalas, ronco e audição."
+      titulo="Atendimento Infantil em Otorrinolaringologia, São Paulo"
+      subtitulo="Avaliação otorrinolaringológica para bebês, crianças e adolescentes, otite, adenoide, amígdalas, ronco e audição."
     >
       <p>
         A otorrinolaringologia pediátrica cuida da saúde dos ouvidos, nariz e garganta de bebês, crianças e adolescentes.
@@ -25,7 +25,7 @@ export default function OtorrinoPediatrica() {
       <ul>
         <li>Dor de ouvido frequente ou choro ao deitar</li>
         <li>Ronco durante o sono</li>
-        <li>Respiração pela boca — mesmo fora dos períodos de gripe</li>
+        <li>Respiração pela boca, mesmo fora dos períodos de gripe</li>
         <li>Nariz sempre entupido</li>
         <li>Infecções de garganta repetidas</li>
         <li>Demora para falar ou dificuldade de audição</li>
@@ -38,13 +38,13 @@ export default function OtorrinoPediatrica() {
 
       <h2>Principais condições avaliadas em crianças</h2>
 
-      <h3>Otite — inflamação do ouvido</h3>
+      <h3>Otite, inflamação do ouvido</h3>
       <p>
         A otite é uma das condições mais comuns na infância, especialmente entre 6 meses e 3 anos. Ocorre quando há
         inflamação no ouvido médio, geralmente após resfriados ou gripes. Os sintomas incluem dor, febre e irritabilidade.
       </p>
       <p>
-        A otite de repetição — quando ocorre três ou mais vezes em um ano — merece avaliação especializada, pois pode estar
+        A otite de repetição, quando ocorre três ou mais vezes em um ano, merece avaliação especializada, pois pode estar
         associada a alterações auditivas temporárias que impactam o desenvolvimento da fala. A avaliação médica é necessária
         para determinar a conduta em cada caso.
       </p>
@@ -56,17 +56,17 @@ export default function OtorrinoPediatrica() {
       </p>
       <p>
         A avaliação do grau de aumento da adenoide e seu impacto clínico é feita pelo otorrinolaringologista, que definirá
-        a conduta mais adequada — clínica ou cirúrgica — de forma individualizada.
+        a conduta mais adequada, clínica ou cirúrgica, de forma individualizada.
       </p>
 
-      <h3>Amígdalas — amigdalite de repetição</h3>
+      <h3>Amígdalas, amigdalite de repetição</h3>
       <p>
         As amígdalas fazem parte do sistema imunológico, mas quando inflamam com muita frequência podem se tornar um foco
         de infecção recorrente. A avaliação pelo otorrino é indicada quando a amigdalite ocorre com frequência ou quando as
         amígdalas aumentadas causam dificuldade respiratória ou para engolir.
       </p>
       <p>
-        A definição da conduta — clínica ou cirúrgica — é sempre individualizada e discutida com os responsáveis.
+        A definição da conduta, clínica ou cirúrgica, é sempre individualizada e discutida com os responsáveis.
       </p>
 
       <h3>Ronco e distúrbios do sono na infância</h3>
@@ -88,12 +88,12 @@ export default function OtorrinoPediatrica() {
         Quando indicado após avaliação clínica detalhada, são realizados os seguintes procedimentos e cirurgias:
       </p>
       <ul>
-        <li><strong>Adenoidectomia</strong> — retirada cirúrgica da adenoide</li>
-        <li><strong>Amigdalectomia</strong> — retirada cirúrgica das amígdalas</li>
-        <li><strong>Adenoamigdalectomia</strong> — retirada de adenoide e amígdalas no mesmo ato cirúrgico</li>
-        <li><strong>Paracentese timpânica</strong> — drenagem do ouvido médio</li>
-        <li><strong>Colocação de tubo de ventilação</strong> — para casos selecionados de otite de repetição</li>
-        <li><strong>Septoplastia</strong> — correção do desvio de septo (adolescentes)</li>
+        <li><strong>Adenoidectomia</strong>, retirada cirúrgica da adenoide</li>
+        <li><strong>Amigdalectomia</strong>, retirada cirúrgica das amígdalas</li>
+        <li><strong>Adenoamigdalectomia</strong>, retirada de adenoide e amígdalas no mesmo ato cirúrgico</li>
+        <li><strong>Paracentese timpânica</strong>, drenagem do ouvido médio</li>
+        <li><strong>Colocação de tubo de ventilação</strong>, para casos selecionados de otite de repetição</li>
+        <li><strong>Septoplastia</strong>, correção do desvio de septo (adolescentes)</li>
       </ul>
       <p>
         A indicação cirúrgica é sempre precedida de avaliação clínica detalhada e discussão com os responsáveis pela criança.

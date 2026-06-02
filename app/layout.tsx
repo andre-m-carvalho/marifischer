@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Playfair_Display, Lato } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
@@ -19,17 +19,17 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: {
-    default: "Dra. Mariana Fischer — Otorrinolaringologista em São Paulo",
-    template: "%s | Dra. Mariana Fischer — Otorrinolaringologista SP",
+    default: "Dra. Mariana Fischer | Otorrinolaringologista em São Paulo",
+    template: "%s | Dra. Mariana Fischer | Otorrinolaringologista SP",
   },
   description:
-    "Otorrinolaringologista em São Paulo para adultos e crianças. Dra. Mariana Fischer — consultas, procedimentos e cirurgias otorrino. CRM-SP 134.600, RQE 108169.",
+    "Otorrinolaringologista em São Paulo para adultos e crianças. Dra. Mariana Fischer, consultas, procedimentos e cirurgias otorrino. CRM-SP 134.600, RQE 108169.",
   metadataBase: new URL("https://marifischer.com.br"),
   verification: {
     google: "F5QxG7ruvVulP94-2BZwCKH1yB6uJQwnJwYs89FrNk4",
   },
   openGraph: {
-    siteName: "Dra. Mariana Fischer — Otorrinolaringologista",
+    siteName: "Dra. Mariana Fischer, Otorrinolaringologista",
     locale: "pt_BR",
     type: "website",
   },

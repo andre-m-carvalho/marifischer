@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 export default function Footer() {
@@ -29,7 +29,7 @@ export default function Footer() {
             <p style={{ fontSize: "0.75rem", color: "#9A9A9A", lineHeight: 1.8, letterSpacing: "0.04em" }}>
               Otorrinolaringologista<br />
               CRM-SP 134.600 · RQE 108169<br />
-              Guarulhos — SP
+              Guarulhos, SP
             </p>
           </div>
 
@@ -95,7 +95,7 @@ export default function Footer() {
               <span style={{ display: "block", marginTop: "0.25rem" }}>
                 R. Doná Olga, 234<br />
                 Vila São João<br />
-                Guarulhos — SP
+                Guarulhos, SP
               </span>
             </div>
           </div>

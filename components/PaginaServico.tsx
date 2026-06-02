@@ -1,4 +1,4 @@
-import CTAWhatsApp from "@/components/CTAWhatsApp";
+﻿import CTAWhatsApp from "@/components/CTAWhatsApp";
 import AvisoLegal from "@/components/AvisoLegal";
 
 interface Props {
@@ -47,7 +47,7 @@ export default function PaginaServico({ titulo, subtitulo, children }: Props) {
               Agende uma Avaliação
             </h3>
             <p style={{ ...sans, fontSize: "0.82rem", color: "#8A8A8A", marginBottom: "1.5rem", lineHeight: 1.8, fontWeight: 300 }}>
-              📍 R. Doná Olga, 234 — Vila São João, Guarulhos — SP<br />
+              📍 R. Doná Olga, 234, Vila São João, Guarulhos, SP<br />
               Atendimento particular para adultos e crianças.
             </p>
             <CTAWhatsApp />

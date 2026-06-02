@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — Informações sobre Saúde Otorrinolaringológica",
+  title: "Blog, Informações sobre Saúde Otorrinolaringológica",
   description:
-    "Artigos educativos sobre saúde dos ouvidos, nariz e garganta. Dra. Mariana Fischer — otorrinolaringologista em Guarulhos e São Paulo.",
+    "Artigos educativos sobre saúde dos ouvidos, nariz e garganta. Dra. Mariana Fischer, otorrinolaringologista em Guarulhos e São Paulo.",
 };
 
 const serif: React.CSSProperties = { fontFamily: "var(--font-serif)" };
@@ -28,7 +28,7 @@ export default function Blog() {
           </h1>
           <div style={{ width: "40px", height: "1px", background: "#C4A07A", margin: "1.25rem 0" }} />
           <p style={{ ...sans, fontSize: "0.9rem", color: "#5A5A5A", lineHeight: 1.8, fontWeight: 300 }}>
-            Informações educativas sobre ouvidos, nariz e garganta — para adultos e crianças.
+            Informações educativas sobre ouvidos, nariz e garganta, para adultos e crianças.
           </p>
         </div>
       </section>

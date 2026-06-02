@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import CTAWhatsApp from "@/components/CTAWhatsApp";
 
 export const metadata: Metadata = {
-  title: "Otorrinolaringologista em São Paulo — Dra. Mariana Fischer",
+  title: "Otorrinolaringologista em São Paulo, Dra. Mariana Fischer",
   description:
-    "Otorrinolaringologista em São Paulo para adultos e crianças. Dra. Mariana Fischer — consultas, procedimentos e cirurgias otorrino. CRM-SP 134.600 · RQE 108169.",
+    "Otorrinolaringologista em São Paulo para adultos e crianças. Dra. Mariana Fischer, consultas, procedimentos e cirurgias otorrino. CRM-SP 134.600 · RQE 108169.",
 };
 
 const especialidades = [
@@ -66,7 +66,7 @@ export default function HomePage() {
                 <div style={{ position: "relative", zIndex: 1, borderRadius: "2px", overflow: "hidden", boxShadow: "0 8px 40px rgba(0,0,0,0.12)" }}>
                   <Image
                     src="/foto-dra.jpg"
-                    alt="Dra. Mariana Fischer — Otorrinolaringologista em São Paulo"
+                    alt="Dra. Mariana Fischer, Otorrinolaringologista em São Paulo"
                     width={840}
                     height={630}
                     style={{ width: "100%", height: "auto", display: "block" }}
@@ -88,7 +88,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Faixa sage — separador com convite ao scroll */}
+      {/* Faixa sage, separador com convite ao scroll */}
       <section style={{ background: "#5E9F97", padding: "1.75rem 2rem", textAlign: "center" }}>
         <p style={{ ...sans, fontSize: "0.72rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "rgba(255,255,255,0.85)", marginBottom: "0.75rem" }}>
           Áreas de atuação
@@ -160,10 +160,10 @@ export default function HomePage() {
         <div className="container" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "4rem", alignItems: "center" }}>
           <div>
             <p style={{ ...sans, fontSize: "0.68rem", letterSpacing: "0.18em", textTransform: "uppercase", color: "#C4A07A", marginBottom: "0.75rem" }}>Localização</p>
-            <h2 style={{ ...serif, fontSize: "1.8rem", fontWeight: 400, color: "#fff", fontStyle: "italic", marginBottom: "1.5rem" }}>Guarulhos — SP</h2>
+            <h2 style={{ ...serif, fontSize: "1.8rem", fontWeight: 400, color: "#fff", fontStyle: "italic", marginBottom: "1.5rem" }}>Guarulhos, SP</h2>
             <p style={{ ...sans, fontSize: "0.82rem", color: "#BBBBBB", lineHeight: 2, fontWeight: 300, marginBottom: "1.25rem" }}>
               R. Doná Olga, 234<br />
-              Vila São João — Guarulhos, SP<br />
+              Vila São João, Guarulhos, SP<br />
               CEP 07044-010
             </p>
             <a href="https://maps.google.com/?q=R.+Dona+Olga,+234+Guarulhos+SP" target="_blank" rel="noopener noreferrer"

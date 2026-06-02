@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -44,7 +44,7 @@ export default function Header() {
         <Link href="/" style={{ display: "flex", alignItems: "center" }}>
           <Image
             src="/logo-horizontal.png"
-            alt="Dra. Mariana Fischer — Otorrinolaringologista"
+            alt="Dra. Mariana Fischer, Otorrinolaringologista"
             width={260}
             height={60}
             style={{ height: "48px", width: "auto" }}

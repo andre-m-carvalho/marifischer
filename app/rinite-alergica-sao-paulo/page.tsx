@@ -1,16 +1,16 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import PaginaServico from "@/components/PaginaServico";
 
 export const metadata: Metadata = {
-  title: "Rinite Alérgica em São Paulo — Diagnóstico e Tratamento",
+  title: "Rinite Alérgica em São Paulo, Diagnóstico e Tratamento",
   description:
-    "Rinite alérgica em São Paulo — tratamento com otorrinolaringologista. Dra. Mariana Fischer atende adultos e crianças. Agende pelo WhatsApp.",
+    "Rinite alérgica em São Paulo, tratamento com otorrinolaringologista. Dra. Mariana Fischer atende adultos e crianças. Agende pelo WhatsApp.",
 };
 
 export default function RiniteAlergica() {
   return (
     <PaginaServico
-      titulo="Rinite Alérgica em São Paulo — Diagnóstico e Tratamento"
+      titulo="Rinite Alérgica em São Paulo, Diagnóstico e Tratamento"
       subtitulo="Nariz escorrendo, espirros e nariz entupido são sintomas comuns que podem ser avaliados pelo otorrinolaringologista."
     >
       <p>
@@ -37,15 +37,15 @@ export default function RiniteAlergica() {
         <li>Dificuldade para dormir pelo nariz entupido</li>
       </ul>
 
-      <h2>Rinite x Sinusite — qual a diferença?</h2>
+      <h2>Rinite x Sinusite, qual a diferença?</h2>
       <p>
         A rinite é a inflamação da mucosa nasal. A sinusite é a inflamação dos seios paranasais (cavidades ósseas ao redor
-        do nariz). As duas frequentemente coexistem — quando isso acontece, denominamos <strong>rinossinusite</strong>.
+        do nariz). As duas frequentemente coexistem, quando isso acontece, denominamos <strong>rinossinusite</strong>.
       </p>
       <p>Sinais que podem indicar sinusite associada:</p>
       <ul>
         <li>Secreção amarela ou esverdeada (espessa)</li>
-        <li>Dor e pressão na face — testa, bochechas, ao redor dos olhos</li>
+        <li>Dor e pressão na face, testa, bochechas, ao redor dos olhos</li>
         <li>Febre</li>
         <li>Sintomas que persistem por mais de dez dias sem melhora</li>
       </ul>
@@ -59,10 +59,10 @@ export default function RiniteAlergica() {
         O plano terapêutico é definido após avaliação clínica individualizada e pode incluir:
       </p>
       <ul>
-        <li><strong>Controle ambiental</strong> — orientações para redução da exposição aos alérgenos</li>
-        <li><strong>Medicamentos</strong> — anti-histamínicos, corticoides nasais e outras opções, conforme indicação</li>
-        <li><strong>Imunoterapia</strong> — para casos selecionados, como opção de tratamento de longo prazo</li>
-        <li><strong>Abordagem cirúrgica</strong> — em casos com desvio de septo associado ou hipertrofia de cornetos
+        <li><strong>Controle ambiental</strong>, orientações para redução da exposição aos alérgenos</li>
+        <li><strong>Medicamentos</strong>, anti-histamínicos, corticoides nasais e outras opções, conforme indicação</li>
+        <li><strong>Imunoterapia</strong>, para casos selecionados, como opção de tratamento de longo prazo</li>
+        <li><strong>Abordagem cirúrgica</strong>, em casos com desvio de septo associado ou hipertrofia de cornetos
         que não respondem ao tratamento clínico</li>
       </ul>
       <p>

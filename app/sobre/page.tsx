@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import CTAWhatsApp from "@/components/CTAWhatsApp";
 
 export const metadata: Metadata = {
-  title: "Sobre a Dra. Mariana Fischer — Otorrinolaringologista SP",
+  title: "Sobre a Dra. Mariana Fischer, Otorrinolaringologista SP",
   description:
     "Conheça a Dra. Mariana Fischer, otorrinolaringologista em São Paulo. CRM-SP 134.600, RQE 108169. Mais de 17 anos de atuação em otorrinolaringologia.",
 };
@@ -26,7 +26,7 @@ export default function Sobre() {
           </h1>
           <div style={{ width: "40px", height: "1px", background: "#C4A07A", margin: "1.25rem 0" }} />
           <p style={{ ...sans, fontSize: "0.9rem", color: "#5A5A5A", lineHeight: 1.8, fontWeight: 300 }}>
-            Otorrinolaringologista com mais de 17 anos de atuação — atendimento para adultos e crianças em São Paulo.
+            Otorrinolaringologista com mais de 17 anos de atuação, atendimento para adultos e crianças em São Paulo.
           </p>
         </div>
       </section>
@@ -58,7 +58,7 @@ export default function Sobre() {
               <div style={{ position: "relative", zIndex: 1, borderRadius: "2px", overflow: "hidden" }}>
                 <Image
                   src="/foto-dra-sobre.jpg"
-                  alt="Dra. Mariana Fischer — Otorrinolaringologista"
+                  alt="Dra. Mariana Fischer, Otorrinolaringologista"
                   width={600}
                   height={450}
                   style={{ width: "100%", height: "auto", display: "block" }}
@@ -75,7 +75,7 @@ export default function Sobre() {
               </p>
               <p style={{ ...sans, fontSize: "0.95rem", color: "#5A5A5A", lineHeight: 1.9, fontWeight: 300 }}>
                 Seu trabalho inclui ampla atuação no atendimento de crianças com condições como otite, adenoide aumentada,
-                amígdalas e distúrbios respiratórios do sono — fruto de anos dedicados a essa área dentro da especialidade
+                amígdalas e distúrbios respiratórios do sono, fruto de anos dedicados a essa área dentro da especialidade
                 de Otorrinolaringologia.
               </p>
               <div style={{ marginTop: "1.5rem", ...sans, fontSize: "0.78rem", color: "#AAAAAA", letterSpacing: "0.06em" }}>
@@ -105,8 +105,8 @@ export default function Sobre() {
               receber pacientes adultos e crianças.
             </p>
             <p style={{ ...sans, fontSize: "0.9rem", color: "#7A7A7A", lineHeight: 2, marginTop: "0.75rem", fontWeight: 300 }}>
-              📍 R. Doná Olga, 234 — Vila São João<br />
-              Guarulhos — SP · CEP 07044-010
+              📍 R. Doná Olga, 234, Vila São João<br />
+              Guarulhos, SP · CEP 07044-010
             </p>
           </div>
 
