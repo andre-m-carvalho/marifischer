@@ -1,5 +1,6 @@
 ﻿import type { Metadata } from "next";
 import { Playfair_Display, Lato } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -42,6 +43,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/icone.png" type="image/png" />
       </head>
       <body style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-FF0LHTP5D8"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FF0LHTP5D8');
+        `}</Script>
         <Header />
         <main style={{ flex: 1 }}>{children}</main>
         <Footer />
