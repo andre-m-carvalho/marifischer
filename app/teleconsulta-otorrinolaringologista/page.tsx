@@ -1,6 +1,6 @@
 ﻿import type { Metadata } from "next";
 import PaginaServico from "@/components/PaginaServico";
-import CTAAgendamento from "@/components/CTAAgendamento";
+import CTAWhatsApp from "@/components/CTAWhatsApp";
 
 export const metadata: Metadata = {
   title: "Teleconsulta com Otorrinolaringologista, Dra. Mariana Fischer",
@@ -83,7 +83,7 @@ export default function Teleconsulta() {
       </p>
 
       <div style={{ margin: "2rem 0" }}>
-        <CTAAgendamento tipo="teleconsulta" />
+        <CTAWhatsApp texto="Agendar Teleconsulta pelo WhatsApp" />
       </div>
 
       <h2>Atendimento presencial em Guarulhos</h2>
