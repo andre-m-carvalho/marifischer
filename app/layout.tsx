@@ -40,13 +40,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-BR" className={`${playfair.variable} ${lato.variable}`}>
       <head>
         <link rel="icon" href="/icone.png" type="image/png" />
-        {/* Google Analytics 4 */}
+        {/* Google Analytics 4 + Google Ads */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-FF0LHTP5D8"></script>
         <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-FF0LHTP5D8');
+          gtag('config', 'AW-553252154');
         `}} />
       </head>
       <body style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
