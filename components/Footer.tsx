@@ -82,7 +82,7 @@ export default function Footer() {
             </div>
             <div style={{ fontSize: "0.8rem", color: "#8A8A8A", lineHeight: 2.1 }}>
               <a
-                href="https://wa.me/5511918780808"
+                href="https://wa.me/5511915230000"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "#8BBDB5", display: "block" }}

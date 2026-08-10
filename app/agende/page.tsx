@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   robots: "noindex",
 };
 
-const whatsappLink = "https://wa.me/5511918780808?text=Ol%C3%A1%2C+vim+pelo+Google+e+gostaria+de+agendar+uma+consulta.";
+const whatsappLink = "https://wa.me/5511915230000?text=Ol%C3%A1%2C+vim+pelo+Google+e+gostaria+de+agendar+uma+consulta.";
 
 const especialidades = [
   "Rinite e sinusite",

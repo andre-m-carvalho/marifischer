@@ -3,7 +3,7 @@
 export default function CTAWhatsApp({ texto = "Agendar Consulta pelo WhatsApp" }: { texto?: string }) {
   return (
     <a
-      href="https://wa.me/5511918780808?text=Ol%C3%A1%2C%20vim%20pelo%20site%20marifischer.com.br%20e%20gostaria%20de%20agendar%20uma%20consulta."
+      href="https://wa.me/5511915230000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20marifischer.com.br%20e%20gostaria%20de%20agendar%20uma%20consulta."
       target="_blank"
       rel="noopener noreferrer"
       style={{

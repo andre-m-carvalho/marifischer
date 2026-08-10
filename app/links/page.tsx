@@ -10,7 +10,7 @@ const links = [
   {
     label: "Agendar Consulta",
     sub: "Presencial em Guarulhos ou Teleconsulta",
-    href: "https://wa.me/5511918780808?text=Ol%C3%A1%2C%20vim%20pelo%20Instagram%20e%20gostaria%20de%20agendar%20uma%20consulta.",
+    href: "https://wa.me/5511915230000?text=Ol%C3%A1%2C%20vim%20pelo%20Instagram%20e%20gostaria%20de%20agendar%20uma%20consulta.",
     icon: "📅",
     destaque: true,
   },
