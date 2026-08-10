@@ -87,7 +87,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 style={{ color: "#8BBDB5", display: "block" }}
               >
-                (11) 91878-0808
+                (11) 91523-0000
               </a>
               <a href="mailto:dramariana@marifischer.com.br" style={{ color: "#8A8A8A", display: "block" }}>
                 dramariana@marifischer.com.br
